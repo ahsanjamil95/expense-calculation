@@ -1,0 +1,67 @@
+.container{
+    background-color: lightsteelblue;
+    min-width: 400px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px 50px 50px;
+}
+.title{
+    text-align: center;
+    color: red;
+}
+.income_track{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcyan;
+    padding: 5px 50px;
+    text-align: center;
+}
+.income{
+    color:green;
+    font-weight: bold;
+}
+.expense{
+    color: red;
+    font-weight: bold;
+}
+.subTitle{
+    font-size: 16px;
+    font-weight: 700;
+}
+.historyRec{
+    padding: 0px;
+}
+.historyRec > li{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 12px;
+}
+.historyRec > li > p{
+    padding: 12px 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+.formInput{
+    width: 100%;
+    margin: 0px;
+    padding: 12px 0px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    text-indent: 8px;
+}
+.btn{
+    width: 100%;
+    padding: 12px 0px;
+    border: 1px solid gainsboro;
+    background-color:red;
+    color: white;
+    border-color: red;
+    margin-top: 30px;
+    cursor:pointer;
+    font-weight: bold;
+
+
+}
